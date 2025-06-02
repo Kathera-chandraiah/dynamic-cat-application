@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cat.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="dark-background text-center">
+      <div>
+        <img
+          src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/bulb-go-on-img.png"
+          alt="Bulb Image"
+          class="bulb-image"
+          id="buldImage"
+        />
+      </div>
+      <div>
+        <img
+          src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/cat-img.png"
+          alt="Cat Image"
+          class="cat-image"
+          id="catImage"
+        />
+      </div>
+      <div class="d-flex flex-row justify-content-center">
+        <div class="switch-board">
+          <h1 class="switch-board-heading" id="switchBoardHeading">
+            Switched Off
+          </h1>
+          <button class="switch-off" id="switchOff" onclick="switchOFF()">
+            OFF
+          </button>
+          <button class="switch-on" id="switchOn" onclick="switchON()">
+            ON
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="cat.js"></script>
+  </body>
+</html>
